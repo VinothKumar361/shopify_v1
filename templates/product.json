@@ -107,7 +107,7 @@
           "settings": {
             "heading": "Model Info",
             "icon": "silhouette",
-            "content": "<p>{{ product.metafields.custom.model_info.value.name.value }} is {{ product.metafields.custom.model_info.value.height | metafield_tag }} and  wearing size {{ product.metafields.custom.wearing_size.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.model_info.value.name.value }} is {{ product.metafields.custom.model_info.value.height | metafield_tag }} and  wearing size {{ product.metafields.custom.wearing_size.value }}.<br/><br/>{{ product.metafields.custom.model_info.value.name.value }}'s  Measuremnts:</p><ul><li>    Bust: {{ product.metafields.custom.model_info.value.bust | metafield_tag }}</li><li>   Waist: {{ product.metafields.custom.model_info.value.waist | metafield_tag }}</li><li>   Height: {{ product.metafields.custom.model_info.value.height | metafield_tag }}</li><li>   Hips:  {{ product.metafields.custom.model_info.value.hips | metafield_tag }}<br/><br/>     </li></ul>",
             "page": ""
           }
         }
